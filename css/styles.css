@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+body{
+    top: 0px;
+left: 0px;
+width: 100%;
+height: 100px;
+background: #F6F7F8 0% 0% no-repeat padding-box;
+opacity: 1;
+margin: 0;
+padding: 0;
+font-size: 10px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-size: 10px;
+    padding: 5px;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.row{
+    width: 100%;
+    padding:0;
+    margin: 0;
+    
+}
+.col{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.align_rows{
+    align-items: center;
+}
+
+.nav_icons{
+    height: 12px;
+}
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav_headings{
+    padding-left: 5px;
+    font-size: 10px;
+}
+.search{
+    float: right;
+}
+.active{
+    background-color: #01F0D0;
+    border-radius: 20px;
+}
+
+.card{
+    padding: 0;
+    margin: 10px;
+}
+.card-header{
+    background-color: white;
+}
+#DLHeadings{
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    background-color: #01F0D0;
+    margin: 20px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+#Patients{
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#DL{
+    height: 20vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#LabResults{
+    height: 15vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
